@@ -9,9 +9,10 @@ body {
 
 .form-content {
     width: 58vw;
-    height: 70vh;
-    box-shadow: 4px;
     background-color: rgb(238, 232, 237);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .form-button {
@@ -82,16 +83,14 @@ img {
 }
 
 .description {
-    margin-top: 12vh;
     font-family: Geneva, Verdana, sans-serif;
-    margin-right: 13vw;
 }
 
 .form-container {
     /* background-color: whitesmoke; */
     margin: 3vw;
-    margin-top: 10vh;
-    margin-right: 14vw;
+    /* margin-top: 10vh; */
+    /* margin-right: 14vw; */
 }
 
 .form1 {
@@ -102,7 +101,8 @@ img {
 
 .form-style {
     flex-grow: 1;
-    margin: 12px;
+    margin: 14px;
+    margin-right: 4vw;
 }
 
 .form-style>input {
@@ -113,7 +113,8 @@ img {
     border-width: 1px;
     border-color: #80808054;
 }
-.form-style>input:hover{
+
+.form-style>input:hover {
     border-color: red;
 }
 
@@ -127,17 +128,22 @@ img {
     margin-top: 4vh;
     margin-left: 3vw;
     font-weight: 600;
-    height: 5vh;
-    width: 12vw;
+    /* height: 5vh; */
+    /* width: 12vw; */
     font-size: 2vh;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: rgb(204, 0, 109);
     color: whitesmoke;
     border: none;
     border-radius: 10px;
 }
+
 .form-button>button:hover {
-background-color: blue;
+    background-color: blue;
 }
+
 .form-button>p {
     margin-left: 3vw;
     font-weight: 700;
